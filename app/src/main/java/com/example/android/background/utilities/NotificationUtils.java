@@ -84,7 +84,7 @@ public class NotificationUtils {
                         context.getString(R.string.charging_reminder_notification_body)))
                 .setDefaults(Notification.DEFAULT_VIBRATE)
                 .setContentIntent(contentIntent(context))
-                // TODO (17) Add the two new actions using the addAction method and your helper methods
+                // COMPLETED (17) Add the two new actions using the addAction method and your helper methods
                 .addAction(drinkWaterAction(context))
                 .addAction(ignoreReminderAction(context))
                 .setAutoCancel(true);
